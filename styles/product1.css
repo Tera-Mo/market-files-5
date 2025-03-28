@@ -1,0 +1,57 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 200px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    border-radius: 0 0 2px 2px;
+    transition: all 0.3s ease;
+    margin: 0;
+}
+
+/* Add a class for when the header is scrolled */
+header.scrolled {
+    padding: 10px 200px;
+    background-color: white;
+}
+
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    border: #f0f0f0;
+    transition: 0.3s;
+}
+header{
+    float: right;
+}
+
+.navigation a {
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+    border: #f0f0f0;
+    transition: 0.3s;
+}
+.navigation a:hover{
+    color: #ff0000;
+}
